@@ -169,3 +169,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+### ------ Ignore everything ------
+*
+
+# Allow the specific folder (e.g., "allowed-folder")
+!\[task2\]-BiGGenBench/
+!\[task2\]-BiGGenBench/calc_pearson_corr.py
+!\[task2\]-BiGGenBench/outputs/
+!\[task2\]-BiGGenBench/outputs/*
+!\[task2\]-BiGGenBench/outputs/*/*
