@@ -1,0 +1,15 @@
+torch
+absl-py
+spicy
+scikit-learn
+ipython
+krippendorff
+pandas
+Pyarrow
+ibm-generative-ai==2.3.0
+numpy==1.26.3
+pandas==2.2.0
+python-dotenv==1.0.1
+termcolor==2.4.0
+tqdm==4.66.1
+transformers==4.38.2

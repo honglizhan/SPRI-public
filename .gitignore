@@ -181,3 +181,5 @@ cython_debug/
 !\[task2\]-BiGGenBench/outputs/
 !\[task2\]-BiGGenBench/outputs/*
 !\[task2\]-BiGGenBench/outputs/*/*
+
+!\requirements.txt
