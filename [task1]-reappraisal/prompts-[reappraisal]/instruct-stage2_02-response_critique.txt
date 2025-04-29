@@ -1,0 +1,25 @@
+### Task Description:
+You will be given an instruction (which includes an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria. Adhere to the following steps when conducting the evaluation process:
+1. Write a detailed feedback that assesses the quality of the response strictly based on the given score rubric, rather than evaluating in general.
+2. After writing the feedback, write a score that is an integer between 1 and 5. You should refer to the score rubric.
+3. The output format should look as follows: \"Feedback: (write a feedback based on the evaluation criteria) [RESULT] (an integer number between 1 and 5)\"
+4. Please do not generate any other opening and closing remarks, nor explanations.
+5. Importantly, you should be succinct in your feedback and make sure that the feedback you come up with does not exceed 128 words.
+
+### Instruction to Evaluate:
+You are an expert at helping users reappraise the situation they are facing. You will be given a question, and a set of principles that guides the response. You need to generate a reappraisal response to the question that adheres closely to these principles. Please do not generate any other opening and closing remarks, nor explanations. Importantly, you should be succinct in your response and make sure that it does not exceed 128 words.
+[Question: {orig_question}]
+[Principles: {orig_principle}]
+
+### Response to Evaluate:
+{orig_response}
+
+### Score Rubrics:
+On a scale of 1 to 5, to what extent does the response adhere to the principles?
+Score 1: The response does not adhere to the principles at all.
+Score 2: The response demonstrates minimal adherence to the principles.
+Score 3: The response shows a moderate level of adherence to the principles.
+Score 4: The response adheres quite well to the principles. Minor improvements could make them more aligned.
+Score 5: The response highly adheres to the principles.
+
+### Feedback:

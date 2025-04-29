@@ -1,0 +1,27 @@
+### Task Description:
+You will be given an instruction (which includes an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria. Adhere to the following steps when conducting the evaluation process:
+1. Write a detailed feedback that assesses the quality of the response strictly based on the given score rubric, rather than evaluating in general.
+2. After writing the feedback, write a score that is an integer between 1 and 5. You should refer to the score rubric.
+3. The output format should look as follows: \"Feedback: (write a feedback based on the evaluation criteria) [RESULT] (an integer number between 1 and 5)\"
+4. Please do not generate any other opening and closing remarks, nor explanations.
+5. Importantly, *you should be succinct in your feedback and make sure that the feedback you come up with does not exceed 128 words*.
+
+### Instruction to Evaluate:
+Role: You are an expert at providing principles that oversights responses to user questions. You will be given a question and the desired goal of your response. You need to provide principles that guides the response so that it satisfies the goal. Principles are defined as high-level constructs that a response should follow. Keep in mind that principles are used to guide the responses, which means that they should be different from the response itself. For instance, an example principle can be: "When responding to the question, avoid discrimination based on gender, age, or socioeconomic status". Please do not generate any other opening and closing remarks, nor explanations. Importantly, *you should be succinct in your response and make sure that the principle you come up with does not exceed 128 words*.
+[Question: {orig_question}]
+
+### Response Goal:
+{response_goal}
+
+### Principles to Evaluate:
+{orig_principle}
+
+### Score Rubrics:
+On a scale of 1 to 5, to what extent are the principles useful to guide the response to the question?
+Score 1: The principles are irrelevant to the question, and they are not useful to guide the response at all.
+Score 2: The principles are minimally useful. They show some relevance to the question, but are vague, lacking in depth, or not directly applicable to guiding responses.
+Score 3: The principles are somewhat useful. They provide a moderate level of guidance on the responses.
+Score 4: The principles are quite useful. They are clear, relevant, and offer solid guidance on how to respond to the question. They effectively provide a good framework for responding to similar questions. Minor improvements could make them more robust.
+Score 5: The principles are highly useful. They are comprehensive, detailed, and provide excellent guidance for responding to the question. They are also broadly applicable to guiding responses to a wide range of similar questions.
+
+### Feedback:
