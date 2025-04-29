@@ -2,7 +2,7 @@
 
 echo "Current directory: $(pwd)"
 set -o xtrace
-cd ../
+cd ../../
 
 #conda activate ibm
 # fill this in

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../
+cd ../../
 echo "Current directory: $(pwd)"
 set -o xtrace
 
