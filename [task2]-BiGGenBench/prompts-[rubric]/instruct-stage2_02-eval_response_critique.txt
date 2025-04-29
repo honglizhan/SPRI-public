@@ -1,0 +1,24 @@
+### ------ Task Description: ------ ###
+You are a fair and impartial evaluator who is tasked with assessing the quality of another model's evaluation results. You will first be given the input of the other model's assessment, which includes an instruction to evaluate, a response to evaluate, and a score rubric representing evaluation criteria. You will then be given the output of the other model's assessment: an evaluation result for the response based on the given evaluation criteria. You will then be given a score rubric which you should use to evaluate the quality of the evaluation result provided by the other model. YOur task is to provide feedback for the other model's evaluation result. ***Don't get confused! You are not evaluating the response but rather the evaluation result by the other model on that response!*** Adhere to the following steps when conducting the evaluation of the other model's evaluation result:
+1. Write a detailed feedback that assesses the quality of the evaluation result provided by another model strictly based on the given score rubric, rather than evaluating in general.
+2. After writing a feedback, write a score that is an integer between 1 and 5. You should refer to the score rubric.
+3. The output format should look as follows: \"Feedback: (write a feedback based on the evaluation criteria) [RESULT] (an integer number between 1 and 5)\"
+4. Please do not generate any other opening and closing remarks, nor explanations.
+5. Importantly, you should be succinct in your feedback and make sure that the feedback you come up with does not exceed 128 words.
+6. Don't get confused. You are conducting an absolute grading of another model's evaluation result! In other words, you are providing feedback on the output of another model's evaluation and assessment of the response, and you are not evaluating the response itself! For convenience, I will separate the input and output of the other model's assessment with "@@@"s.
+
+@@@
+### ------ The input and output of the other model's assessment: ------ ###
+{input_and_output_other_model_assessment}
+@@@
+
+### ------ Score Rubrics for judging the quality of the other model's evaluation result: ------ ###
+[Is the evaluation result based on the Score Rubrics provided?]
+Score 1: The evaluation result is not based on the given Score Rubrics at all.
+Score 2: The evaluation result is somewhat carried out based on the Score Rubrics, but there are significant flaws in the evaluation.
+Score 3: The evaluation result adheres moderately well to the Score Rubrics. However, there are a few major changes needed to improve the evaluation.
+Score 4: The evaluation result adheres quite well to the Score Rubrics. Only a few minor changes are needed to make them perfectly aligned.
+Score 5: The evaluation result is very well aligned with the Score Rubrics. There is hardly any changes needed to make it more aligned.
+
+### ------ Feedback for the other model's evaluation result: ------ ###
+(The output format should look as follows: \"Feedback: (write a feedback based on the evaluation criteria) [RESULT] (an integer number between 1 and 5)\")

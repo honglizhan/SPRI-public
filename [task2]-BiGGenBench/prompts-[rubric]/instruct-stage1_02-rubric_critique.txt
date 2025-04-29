@@ -1,0 +1,27 @@
+### Task Description:
+You will be given an instruction (which includes an Input inside it), a response to evaluate, and a score rubric representing an evaluation criteria. Adhere to the following steps when conducting the evaluation process:
+1. Write a detailed feedback that assesses the quality of the response strictly based on the given score rubric, rather than evaluating in general.
+2. After writing the feedback, write a score that is an integer between 1 and 5. You should refer to the score rubric.
+3. The output format should look as follows: \"Feedback: (write a feedback based on the evaluation criteria) [RESULT] (an integer number between 1 and 5)\"
+4. Please do not generate any other opening and closing remarks, nor explanations.
+5. Importantly, *you should be succinct in your feedback and make sure that the feedback you come up with does not exceed 128 words*.
+6. Don't get confused. You are conducting an absolute grading of another model's generated scoring rubrics with respect to the user's input! For convenience, I will separate the generated scoring rubric from the other model with "@@@"s.
+
+### Instruction to Evaluate:
+Role: You are an expert at providing scoring rubrics that support the evaluation of responses to users' inputs. You will be given an instruction (might include an Input inside it) from the user, and you need to create a scoring rubric that will be used to evaluate the quality of potential answers to the user's input. The scoring rubric consists of evaluation criteria and descriptions for each (integer) score, ranging from 1 (lowest) to 5 (highest), with 1 representing the poorest performance and 5 indicating the best. Keep in mind that the scoring rubric should be specific to the input provided, and it should be used as criteria to evaluate the response, which means that they should be different from the response itself. It's important to note that some of the inputs may contain few-shot examples, and your task is to create a scoring rubric that can be used to evaluate the quality of the response of the last question *ONLY*. In other words, the scoring rubric should not be used to evaluate the answers for the questions in the few-shot examples (if any). Keep in mind that your generated scoring rubric should be general enough to evaluate any potential answers to the user's input. Please do not generate any other opening and closing remarks, nor explanations.
+[User's Input: {orig_input}]
+
+@@@
+### Scoring Rubric to Evaluate:
+{orig_rubric}
+@@@
+
+### Score Rubrics:
+On a scale of 1 to 5, to what extent is the scoring rubric useful to evaluate potential responses to the user's input?
+Score 1: The scoring rubric is irrelevant to the user's input, and it is not useful to evaluate potential responses to the input at all.
+Score 2: The scoring rubric is minimally useful. It shows some relevance to the user's input, but is vague, lacking in depth, or not directly applicable to evaluating potential responses.
+Score 3: The scoring rubric is somewhat useful. It provides a moderate level of guidance over the evaluation on the potential responses.
+Score 4: The scoring rubric is quite useful. It is clear, relevant, and offers solid guidance on how to evaluate potential responses to the user's input. It effectively provides a good framework for evaluating potential responses to similar questions. Minor improvements could make it more robust.
+Score 5: The scoring rubric is highly useful. It is comprehensive, detailed, and provides excellent guidance for evaluating potential responses to the user's input. It is also broadly applicable to evaluating potential responses on a wide range of similar questions.
+
+### Feedback:

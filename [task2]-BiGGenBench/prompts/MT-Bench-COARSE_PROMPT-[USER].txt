@@ -1,0 +1,10 @@
+### Question:
+{orig_instruction}
+
+### Reference Answer:
+{orig_reference_answer}
+
+### Assistant’s Answer:
+{orig_response}
+
+### Judgment:
