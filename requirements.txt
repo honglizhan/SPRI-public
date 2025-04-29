@@ -6,6 +6,7 @@ ipython
 krippendorff
 pandas
 Pyarrow
+openai
 ibm-generative-ai==2.3.0
 numpy==1.26.3
 pandas==2.2.0

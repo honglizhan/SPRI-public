@@ -170,16 +170,10 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-### ------ Ignore everything ------
-*
+### ------ Custom ignore ------
+\[task1\]-reappraisal
+\[task2\]-BiGGenBench
+\[task3\]-sft
 
-# Allow the specific folder (e.g., "allowed-folder")
-!\[task2\]-BiGGenBench/
-!\[task2\]-BiGGenBench/source_data/
-!\[task2\]-BiGGenBench/source_data/*
-!\[task2\]-BiGGenBench/calc_pearson_corr.py
-!\[task2\]-BiGGenBench/outputs/
-!\[task2\]-BiGGenBench/outputs/*
-!\[task2\]-BiGGenBench/outputs/*/*
-
-!\requirements.txt
+stage1_gen_principles
+stage2_gen_responses
