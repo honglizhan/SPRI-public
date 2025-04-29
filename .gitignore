@@ -173,4 +173,3 @@ cython_debug/
 ### ------ Custom ignore ------
 \[task1\]-reappraisal
 \[task2\]-BiGGenBench
-\[task3\]-sft
