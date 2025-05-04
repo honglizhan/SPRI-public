@@ -21,3 +21,6 @@ $ conda create --name spri python==3.12.7
 $ conda activate spri
 $ pip install -r requirements.txt
 ```
+
+## Repository Status
+I'm actively putting up the documentation of the code. If you have any questions, feel free to email me at [honglizhan@utexas.edu](mailto:honglizhan@utexas.edu).
